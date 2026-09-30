@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Se o domínio final não for https://lashesbycamaleoa.com.br, troque o endereço nas linhas abaixo -->
+<link rel="canonical" href="https://lashesbycamaleoa.com.br/">
+<meta name="theme-color" content="#EDE2D6">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Lashes by Camaleoa">
+<meta property="og:title" content="Lashes by Camaleoa | Extensão de cílios e sobrancelhas em Irajá, RJ">
+<meta property="og:description" content="Extensão de cílios e sobrancelhas com Daya Canedo, em Irajá, Rio de Janeiro. Naturalidade, leveza e durabilidade. Veja técnicas e valores e agende pelo WhatsApp.">
+<meta property="og:url" content="https://lashesbycamaleoa.com.br/">
+<meta property="og:image" content="https://lashesbycamaleoa.com.br/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Lashes by Camaleoa, extensão de cílios e sobrancelhas com Daya Canedo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lashes by Camaleoa | Extensão de cílios e sobrancelhas em Irajá, RJ">
+<meta name="twitter:description" content="Extensão de cílios e sobrancelhas com Daya Canedo, em Irajá, Rio de Janeiro. Naturalidade, leveza e durabilidade. Veja técnicas e valores e agende pelo WhatsApp.">
+<meta name="twitter:image" content="https://lashesbycamaleoa.com.br/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BeautySalon", "name": "Lashes by Camaleoa", "description": "Extensão de cílios e sobrancelhas com Daya Canedo, em Irajá, Rio de Janeiro. Naturalidade, leveza e durabilidade. Veja técnicas e valores e agende pelo WhatsApp.", "url": "https://lashesbycamaleoa.com.br/", "image": "https://lashesbycamaleoa.com.br/og-image.jpg", "telephone": "+55 21 99251-1162", "address": {"@type": "PostalAddress", "streetAddress": "Av. Vicente de Carvalho, 340", "addressLocality": "Rio de Janeiro", "addressRegion": "RJ", "postalCode": "21371-148", "addressCountry": "BR"}, "areaServed": "Irajá, Rio de Janeiro", "priceRange": "R$ 35 – R$ 250", "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "12:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "19:00"}], "sameAs": ["https://www.instagram.com/lashesbycamaleoa/"]}</script>
+<title>Lashes by Camaleoa | Extensão de cílios e sobrancelhas em Irajá, RJ</title>
+<meta name="description" content="Extensão de cílios e sobrancelhas com Daya Canedo, em Irajá, Rio de Janeiro. Naturalidade, leveza e durabilidade. Veja técnicas e valores e agende pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{color-scheme:light}
+/* Layout: catálogo impresso virado página — arcos ovais (do logo) emolduram as fotos; menu de técnicas como cardápio com preço. */
+:root{
+  --bg:#EDE2D6; --surface:#F5ECE3; --sand:#DCC7B4; --ink:#3A2217; --muted:#7B5B49; --accent:#8B4526; --on-accent:#F8EFE6;
+  --line:rgba(58,34,23,.16);
+  --f-display:"Italiana","Didot","Bodoni 72",Georgia,serif;
+  --f-body:"Jost","Avenir Next","Century Gothic","Segoe UI",sans-serif;
+  --ease-out:cubic-bezier(.23,1,.32,1);
+  --wa:"https://wa.me/5521992511162";
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1B130F; --surface:#241915; --sand:#3A2A21; --ink:#F1E5D9; --muted:#BFA491; --accent:#D99C74; --on-accent:#23150E;
+  --line:rgba(241,229,217,.16); color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#1B130F; --surface:#241915; --sand:#3A2A21; --ink:#F1E5D9; --muted:#BFA491; --accent:#D99C74; --on-accent:#23150E;
+  --line:rgba(241,229,217,.16); color-scheme:dark }
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:300 17px/1.6 var(--f-body);-webkit-tap-highlight-color:transparent;padding-inline:clamp(16px,4vw,40px);padding-bottom:84px}
+@media (min-width:860px){body{padding-bottom:0}}
+.wrap{max-width:1140px;margin-inline:auto}
+a{color:inherit}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;letter-spacing:.04em;text-wrap:balance;margin:0;line-height:1.05}
+p{margin:0;text-wrap:pretty}
+.eyebrow{font:500 12px/1.2 var(--f-body);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.logo{display:inline-block;background:currentColor;-webkit-mask:url(img/logo.png) center/contain no-repeat;mask:url(img/logo.png) center/contain no-repeat}
+section{padding-block:clamp(64px,10vw,120px)}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(32px,5vw,56px);max-width:620px}
+.sec-head h2{font-size:clamp(40px,6.4vw,72px);text-transform:uppercase}
+.sec-head p{color:var(--muted)}
+
+/* botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;font:500 14px/1.3 var(--f-body);letter-spacing:.14em;text-transform:uppercase;text-align:center;text-decoration:none;padding-block:12px;border:1px solid transparent;cursor:pointer;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:transform 160ms var(--ease-out),background-color 200ms ease,color 200ms ease,border-color 200ms ease}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-ghost{border-color:var(--line);color:var(--ink)}
+@media (hover:hover) and (pointer:fine){
+  .btn-primary:hover{background:var(--ink);color:var(--bg)}
+  .btn-ghost:hover{border-color:var(--ink)}
+}
+.btn svg{width:18px;height:18px;flex:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* topo */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line);margin-inline:calc(-1 * clamp(16px,4vw,40px));padding:12px clamp(16px,4vw,40px)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand .logo{width:26px;height:36px;color:var(--accent)}
+.brand b{font:400 22px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercase}
+.brand small{display:block;font:400 10px/1.4 var(--f-body);letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.top .wrap>nav{display:none;gap:28px;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.top .wrap>nav a{text-decoration:none;color:var(--muted);transition:color 200ms ease}
+@media (hover:hover) and (pointer:fine){.top .wrap>nav a:hover{color:var(--ink)}}
+.top-actions .btn{min-height:42px;padding:0 18px;font-size:12px}
+@media (min-width:860px){.top .wrap>nav{display:flex}}
+@media (max-width:520px){.top-actions .btn{display:none}}
+
+/* hero */
+.hero{padding-block:clamp(40px,7vw,88px) clamp(56px,8vw,100px);display:grid;gap:clamp(36px,6vw,72px);align-items:center}
+@media (min-width:860px){.hero{grid-template-columns:1.1fr .9fr}}
+.hero-copy{display:grid;gap:26px;min-width:0}
+.hero h1{font-size:clamp(52px,9.5vw,118px);text-transform:uppercase;letter-spacing:.02em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lead{font-size:clamp(17px,1.6vw,19px);max-width:34em;color:var(--muted)}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .note{font-size:14px;color:var(--muted);display:flex;align-items:center;gap:10px}
+.hero .note::before{content:"";width:28px;height:1px;background:var(--muted)}
+.arch{position:relative;border-radius:50% 50% 0 0 / 36% 36% 0 0;overflow:hidden;background:var(--sand);aspect-ratio:4/5;max-width:100%}
+.arch img{width:100%;height:100%;object-fit:cover}
+.hero-media{position:relative;justify-self:center;width:min(100%,460px)}
+.hero-media .tag{position:absolute;left:-14px;bottom:28px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;display:grid;gap:2px;box-shadow:0 12px 30px -18px rgba(40,20,10,.45)}
+.hero-media .tag b{font:400 26px/1 var(--f-display);letter-spacing:.04em}
+.hero-media .tag span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:520px){.hero-media .tag{left:8px}}
+
+/* carregamento */
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes reveal{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+.hero-copy>*{animation:rise 700ms var(--ease-out) both}
+.hero-copy>*:nth-child(2){animation-delay:60ms}.hero-copy>*:nth-child(3){animation-delay:120ms}
+.hero-copy>*:nth-child(4){animation-delay:180ms}.hero-copy>*:nth-child(5){animation-delay:240ms}
+.hero-media .arch{animation:reveal 1100ms cubic-bezier(.77,0,.175,1) both}
+.hero-media .tag{animation:rise 600ms var(--ease-out) 700ms both}
+
+/* pilares */
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-block:1px solid var(--line)}
+.pillars div{padding:26px 8px;display:flex;gap:16px;align-items:baseline}
+.pillars b{font:400 15px/1 var(--f-display);color:var(--accent);letter-spacing:.1em}
+.pillars span{font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+
+/* técnicas */
+.menu{display:grid;gap:clamp(24px,4vw,56px)}
+@media (min-width:860px){.menu{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);align-items:start}}
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.list button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:12px;padding:18px 4px;border-bottom:1px solid var(--line);cursor:pointer;touch-action:manipulation;transition:color 200ms ease,padding 250ms var(--ease-out)}
+.list .nm{font:400 clamp(24px,2.6vw,30px)/1.1 var(--f-display);letter-spacing:.05em;text-transform:uppercase}
+.list .fx{grid-column:1;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.list .pr{grid-row:1/span 2;grid-column:2;align-self:center;font-variant-numeric:tabular-nums;font-size:15px;color:var(--muted);white-space:nowrap}
+.list button[aria-selected="true"]{color:var(--accent);padding-left:14px}
+.list button[aria-selected="true"] .pr{color:var(--accent)}
+.list button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+@media (hover:hover) and (pointer:fine){.list button:hover{padding-left:14px}}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:clamp(16px,2.4vw,24px);display:grid;gap:22px;min-width:0}
+@media (min-width:860px){.panel{position:sticky;top:96px}}
+.panel .ph{border-radius:20px;overflow:hidden;aspect-ratio:1;background:var(--sand)}
+.panel .ph img{width:100%;height:100%;object-fit:cover;transition:opacity 220ms ease,filter 220ms ease,transform 400ms var(--ease-out)}
+.panel.swap .ph img{opacity:.35;filter:blur(6px);transform:scale(1.02)}
+.panel .body{display:grid;gap:14px;padding:4px 6px 6px}
+.panel .body>*{transition:opacity 180ms ease,transform 260ms var(--ease-out)}
+.panel.swap .body>*{opacity:0;transform:translateY(6px)}
+.panel h3{font-size:clamp(34px,4vw,46px);text-transform:uppercase}
+.panel .desc{color:var(--muted)}
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.prices div{background:var(--surface);padding:14px 16px;display:grid;gap:4px}
+.prices span{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.prices b{font:400 34px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.prices b small{font:400 13px var(--f-body);margin-right:4px;color:var(--muted)}
+.panel .obs{font-size:14px;color:var(--muted)}
+.panel .btn{width:100%}
+
+/* sobrancelhas */
+.brows{display:grid;gap:clamp(28px,5vw,64px);align-items:center}
+@media (min-width:860px){.brows{grid-template-columns:.8fr 1.2fr}}
+.brows .arch{width:min(100%,400px);justify-self:center}
+.brow-list{display:grid;gap:0;border-top:1px solid var(--line)}
+.brow-list div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:20px 4px;border-bottom:1px solid var(--line)}
+.brow-list h3{font-size:clamp(24px,2.8vw,32px);text-transform:uppercase}
+.brow-list b{font:400 28px/1 var(--f-display);font-variant-numeric:tabular-nums;white-space:nowrap}
+.brow-list b small{font:400 13px var(--f-body);color:var(--muted);margin-right:4px}
+.combo{margin-top:28px;background:var(--ink);color:var(--bg);border-radius:28px;padding:clamp(22px,3.4vw,34px);display:grid;gap:14px}
+.combo .eyebrow{color:color-mix(in srgb,var(--bg) 70%,transparent)}
+.combo h3{font-size:clamp(28px,3.4vw,40px);text-transform:uppercase}
+.combo p{color:color-mix(in srgb,var(--bg) 78%,transparent);max-width:44em}
+.combo .row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:6px}
+.combo .row b{font:400 44px/1 var(--f-display)}
+.combo .row b small{font:400 14px var(--f-body);margin-right:6px;opacity:.7}
+.combo .btn{background:var(--bg);color:var(--ink)}
+@media (hover:hover) and (pointer:fine){.combo .btn:hover{background:var(--accent);color:var(--on-accent)}}
+
+/* sobre */
+.about{display:grid;gap:clamp(32px,5vw,72px);align-items:center}
+@media (min-width:860px){.about{grid-template-columns:.9fr 1.1fr}}
+.about .arch{width:min(100%,430px);justify-self:center}
+.about-copy{display:grid;gap:22px;min-width:0}
+.about-copy h2{font-size:clamp(40px,6vw,68px);text-transform:uppercase}
+.about-copy p{color:var(--muted);max-width:36em}
+.about-copy .sig{font:400 30px/1 var(--f-display);color:var(--ink);letter-spacing:.06em}
+
+/* depoimentos */
+.quotes{columns:3 280px;column-gap:18px}
+.q{break-inside:avoid;margin:0 0 18px;background:var(--surface);border:1px solid var(--line);border-radius:22px 22px 22px 6px;padding:22px 22px 18px;display:grid;gap:12px}
+.q p{font-size:17px;line-height:1.5}
+.q footer{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.q.big p{font:400 clamp(26px,2.6vw,32px)/1.2 var(--f-display);letter-spacing:.02em}
+
+/* galeria */
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(10px,1.6vw,18px);padding-bottom:clamp(24px,4vw,48px)}
+.gallery .arch{aspect-ratio:3/4;border-radius:50% 50% 0 0 / 34% 34% 0 0}
+.gallery .arch:nth-child(even){transform:translateY(clamp(20px,4vw,48px))}
+@media (min-width:700px){
+  .gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .gallery .arch:nth-child(even){transform:none}
+  .gallery .arch:nth-child(3n+2){transform:translateY(clamp(20px,4vw,48px))}
+}
+
+/* agendamento */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;counter-reset:s}
+.steps li{counter-increment:s;border-top:1px solid var(--ink);padding-top:18px;display:grid;gap:10px;align-content:start}
+.steps li::before{content:counter(s,decimal-leading-zero);font:400 40px/1 var(--f-display);color:var(--accent)}
+.steps h3{font:500 14px/1.3 var(--f-body);letter-spacing:.16em;text-transform:uppercase}
+.steps p{color:var(--muted);font-size:16px}
+.pay{margin-top:36px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pay span{font-size:13px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:8px 16px}
+.pay .eyebrow{border:0;padding:0 8px 0 0}
+
+/* cuidados */
+.care-wrap,.faq-wrap{border-top:1px solid var(--line);padding-top:clamp(48px,7vw,88px)}
+.care{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.care-col{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:24px 24px 22px;display:grid;gap:14px;align-content:start}
+.care-col h3{font:500 13px/1.3 var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.care-col ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.care-col li{position:relative;padding-left:22px;font-size:16px;line-height:1.5}
+.care-col li::before{content:"";position:absolute;left:2px;top:.62em;width:9px;height:1px;background:var(--accent)}
+.care-col.avoid{background:transparent}
+.care-col.avoid li::before{content:"×";width:auto;height:auto;background:none;top:-.05em;left:1px;color:var(--muted);font-size:18px;line-height:1.3}
+.care-note{margin-top:20px;font-size:15px;color:var(--muted);max-width:60em}
+
+/* faq */
+.faq-wrap{display:grid;gap:0}
+@media (min-width:960px){.faq-wrap{grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}}
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 4px;font:400 clamp(21px,2.2vw,26px)/1.25 var(--f-display);letter-spacing:.02em;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";flex:none;width:12px;height:12px;border-right:1px solid var(--accent);border-bottom:1px solid var(--accent);transform:translateY(-3px) rotate(45deg);transition:transform 220ms var(--ease-out)}
+.faq details[open] summary::after{transform:translateY(3px) rotate(-135deg)}
+.faq summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.faq .ans{padding:0 4px 22px;color:var(--muted);max-width:40em}
+.faq details[open] .ans{animation:rise 260ms var(--ease-out)}
+
+/* horários */
+.hours-col{display:grid;gap:28px;min-width:0}
+.hours{display:grid;gap:14px}
+.now{display:inline-flex;align-items:center;gap:10px;justify-self:start;font-size:13px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:8px 14px}
+.now::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.now.open::before{background:#3F8F5B}
+.hours dl{margin:0;border-top:1px solid var(--line);max-width:460px}
+.hours dl div{display:flex;justify-content:space-between;gap:16px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.hours dt{font-size:15px;letter-spacing:.06em}
+.hours dd{margin:0;font-variant-numeric:tabular-nums;color:var(--muted)}
+.hours dl div.today dt,.hours dl div.today dd{color:var(--accent);font-weight:500}
+
+/* local */
+.local{display:grid;gap:clamp(28px,4vw,56px);align-items:center;border-top:1px solid var(--line);padding-top:clamp(48px,7vw,88px)}
+@media (min-width:860px){.local{grid-template-columns:1fr 1fr}}
+.addr{background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:clamp(22px,3.4vw,36px);display:grid;gap:20px;min-width:0}
+.addr .pin{width:34px;height:34px;color:var(--accent)}
+.addr address{font-style:normal;display:grid;gap:4px}
+.addr address b{font:400 clamp(28px,3.2vw,38px)/1.1 var(--f-display);letter-spacing:.03em;text-transform:uppercase}
+.addr address span{color:var(--muted);font-size:16px}
+.addr-ctas{display:flex;flex-wrap:wrap;gap:10px}
+.addr-ctas .btn{flex:1 1 200px;white-space:nowrap;padding-inline:20px}
+
+/* final */
+.final{text-align:center;display:grid;justify-items:center;gap:22px;border-top:1px solid var(--line)}
+.final .logo{width:54px;height:76px;color:var(--accent)}
+.final h2{font-size:clamp(44px,8vw,96px);text-transform:uppercase}
+.final p{color:var(--muted);max-width:32em}
+.phone{display:flex;align-items:center;gap:10px;font-size:15px;color:var(--muted);flex-wrap:wrap;justify-content:center}
+.phone code{font:500 15px var(--f-body);color:var(--ink);letter-spacing:.06em;user-select:all;-webkit-user-select:all}
+.copy{all:unset;cursor:pointer;font-size:12px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1px solid var(--line);transition:border-color 200ms ease}
+.copy:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+footer.site{border-top:1px solid var(--line);padding-block:28px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13px;color:var(--muted);letter-spacing:.06em}
+footer.site a{text-decoration:none}
+
+/* barra fixa no celular */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+.mbar .btn{width:100%}
+@media (min-width:860px){.mbar{display:none}}
+
+
+/* menu no celular */
+.top-actions{display:flex;align-items:center;gap:10px}
+.menu-btn{all:unset;box-sizing:border-box;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;cursor:pointer;touch-action:manipulation;transition:transform 160ms var(--ease-out),border-color 200ms ease}
+.menu-btn:active{transform:scale(.94)}
+.menu-btn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.menu-btn i{position:relative;width:18px;height:1px;background:currentColor;transition:background-color 150ms ease}
+.menu-btn i::before,.menu-btn i::after{content:"";position:absolute;left:0;width:18px;height:1px;background:currentColor;transition:transform 240ms var(--ease-out)}
+.menu-btn i::before{transform:translateY(-6px)}.menu-btn i::after{transform:translateY(6px)}
+.menu-btn[aria-expanded="true"] i{background:transparent}
+.menu-btn[aria-expanded="true"] i::before{transform:rotate(45deg)}
+.menu-btn[aria-expanded="true"] i::after{transform:rotate(-45deg)}
+@media (min-width:860px){.menu-btn,.mnav{display:none!important}}
+.mnav{position:absolute;left:0;right:0;top:100%;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 24px 40px -28px rgba(40,20,10,.5);padding:8px clamp(16px,4vw,40px) 20px;display:grid;
+  opacity:0;transform:translateY(-8px);visibility:hidden;transition:opacity 180ms ease,transform 220ms var(--ease-out),visibility 0s linear 220ms}
+.mnav.open{opacity:1;transform:none;visibility:visible;transition:opacity 180ms ease,transform 260ms var(--ease-out),visibility 0s}
+.mnav a:not(.btn){display:flex;justify-content:space-between;align-items:center;padding:14px 2px;border-bottom:1px solid var(--line);text-decoration:none;font:400 24px/1.1 var(--f-display);letter-spacing:.05em;text-transform:uppercase}
+.mnav a:not(.btn)::after{content:"";width:8px;height:8px;border-top:1px solid var(--accent);border-right:1px solid var(--accent);transform:rotate(45deg)}
+.mnav .btn{margin-top:18px}
+
+/* técnicas: botões deslizantes no celular */
+.list{position:relative}
+@media (max-width:859px){
+  .menu{gap:14px}
+  .list{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x proximity;border:0;margin-inline:calc(-1 * clamp(16px,4vw,40px));padding:2px clamp(16px,4vw,40px) 8px;scroll-padding-inline:clamp(16px,4vw,40px);scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .list::-webkit-scrollbar{display:none}
+  .list li{flex:none;scroll-snap-align:start}
+  .list button{width:auto;display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:10px 16px 11px;border:1px solid var(--line);border-radius:16px;background:var(--surface);transition:background-color 200ms ease,color 200ms ease,border-color 200ms ease,transform 160ms var(--ease-out)}
+  .list button:active{transform:scale(.96)}
+  .list .nm{font-size:19px;white-space:nowrap}
+  .list .fx{display:none}
+  .list .pr{font-size:13px}
+  .list button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent);padding-left:16px}
+  .list button[aria-selected="true"] .pr{color:var(--on-accent);opacity:.85}
+  .swipe-hint{display:block}
+}
+.swipe-hint{display:none;font-size:13px;color:var(--muted);letter-spacing:.04em}
+
+/* depoimentos: carrossel no celular */
+.dots{display:none;justify-content:center;gap:8px;margin-top:16px}
+.dots span{width:6px;height:6px;border-radius:50%;background:var(--line);transition:background-color 200ms ease,transform 240ms var(--ease-out)}
+.dots span.on{background:var(--accent);transform:scale(1.35)}
+@media (max-width:699px){
+  .quotes{columns:auto;display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * clamp(16px,4vw,40px));padding:4px clamp(16px,4vw,40px) 6px;scroll-padding-inline:clamp(16px,4vw,40px);scrollbar-width:none;overscroll-behavior-x:contain}
+  .quotes::-webkit-scrollbar{display:none}
+  .q{flex:0 0 84%;margin:0;scroll-snap-align:start;align-content:space-between}
+  .dots{display:flex}
+}
+
+/* galeria ampliável */
+.zoom{padding:0;border:0;cursor:zoom-in;display:block;width:100%;font:inherit;color:inherit;touch-action:manipulation}
+.zoom img{transition:transform 500ms var(--ease-out)}
+.zoom:active img{transform:scale(.97);transition-duration:160ms}
+@media (hover:hover) and (pointer:fine){.zoom:hover img{transform:scale(1.04)}}
+.zoom:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+
+/* visualizador de fotos: sempre escuro, por cima da página em qualquer tema */
+.lb{padding:0;border:0;margin:0;max-width:none;max-height:none;width:100%;height:100%;background:transparent;color:#F5ECE3;overflow:hidden}
+.lb::backdrop{background:rgba(18,11,8,.92)}
+.lb[open]::backdrop{animation:fade 220ms ease}
+.lb[open] .lb-fig{animation:lbIn 280ms var(--ease-out)}
+.lb.closing .lb-fig{animation:lbOut 150ms var(--ease-out) forwards}
+.lb.closing::backdrop{animation:fadeOut 150ms ease forwards}
+@keyframes fade{from{opacity:0}}
+@keyframes fadeOut{to{opacity:0}}
+@keyframes lbIn{from{opacity:0;transform:scale(.96)}}
+@keyframes lbOut{to{opacity:0;transform:scale(.97)}}
+.lb-fig{margin:0;position:absolute;inset:0;display:grid;place-items:center;padding:calc(64px + env(safe-area-inset-top,0px)) 16px calc(88px + env(safe-area-inset-bottom,0px));touch-action:pan-y}
+.lb-fig img{max-width:min(100%,720px);max-height:100%;width:auto;height:auto;border-radius:18px;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}
+.lb button{all:unset;box-sizing:border-box;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(245,236,227,.12);color:#F5ECE3;cursor:pointer;touch-action:manipulation;transition:background-color 200ms ease,transform 160ms var(--ease-out)}
+.lb button:active{transform:scale(.92)}
+.lb button:focus-visible{outline:2px solid #F5ECE3;outline-offset:3px}
+@media (hover:hover) and (pointer:fine){.lb button:hover{background:rgba(245,236,227,.22)}}
+.lb button svg{width:20px;height:20px}
+.lb-close{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:16px}
+.lb-bar{position:absolute;left:0;right:0;bottom:calc(20px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center;align-items:center;gap:22px}
+.lb-count{font:500 13px/1 var(--f-body);letter-spacing:.18em;font-variant-numeric:tabular-nums;min-width:52px;text-align:center}
+html.lb-lock{overflow:hidden}
+
+/* barra fixa some quando já há outro botão de agendar na tela */
+.mbar{transition:transform 280ms var(--ease-out)}
+.mbar.away{transform:translateY(calc(100% + 2px))}
+
+/* selo aberto/fechado no topo */
+.now-hero{font-size:12px}
+.hero-copy>*:nth-child(6){animation-delay:300ms}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-property:opacity,color,background-color!important}
+  html{scroll-behavior:auto}
+}
+</style>
+
+</head><body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Lashes by Camaleoa, início">
+      <span class="logo" aria-hidden="true"></span>
+      <span><b>Camaleoa</b><small>Lashes &amp; Brows</small></span>
+    </a>
+    <nav aria-label="Seções">
+      <a href="#tecnicas">Técnicas</a>
+      <a href="#sobrancelhas">Sobrancelhas</a>
+      <a href="#agendar">Como agendar</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#local">Endereço</a>
+    </nav>
+    <div class="top-actions">
+      <a class="btn btn-primary wa" data-msg="Olá, Daya! Vim pelo site e quero agendar um horário." href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar</a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Abrir menu"><i aria-hidden="true"></i></button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Menu">
+    <a href="#tecnicas">Técnicas e valores</a>
+    <a href="#sobrancelhas">Sobrancelhas</a>
+    <a href="#sobre">Sobre a Daya</a>
+    <a href="#agendar">Como agendar</a>
+    <a href="#cuidados">Cuidados</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a href="#local">Endereço e horários</a>
+    <a class="btn btn-primary wa" data-msg="Olá, Daya! Vim pelo site e quero agendar um horário." href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+  </nav>
+</header>
+
+<main class="wrap" id="inicio">
+  <section class="hero" aria-labelledby="h-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Extensão de cílios &amp; sobrancelhas · Irajá, RJ</p>
+      <h1 id="h-hero">Um olhar <em>leve</em>, natural e que dura</h1>
+      <p class="lead">Cada aplicação começa com um mapeamento do seu olhar. Assim a técnica, o tamanho e a curvatura dos fios são escolhidos para você, e o resultado fica tão leve que dá para esquecer que está usando.</p>
+      <div class="ctas">
+        <a class="btn btn-primary wa" data-msg="Olá, Daya! Vim pelo site e quero agendar um horário." href="https://wa.me/5521992511162" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="#tecnicas">Ver técnicas e valores</a>
+      </div>
+      <p class="note">Horário garantido com sinal de R$ 50, abatido no dia</p>
+      <p class="now now-hero" hidden></p>
+    </div>
+    <div class="hero-media">
+      <div class="arch"><img src="img/hero.jpg" alt="Modelo com extensão de cílios, olhar em destaque entre as mãos" width="675" height="843" fetchpriority="high"></div>
+      <div class="tag"><b>A partir de R$ 130</b><span>Lash lifting</span></div>
+    </div>
+  </section>
+
+  <div class="pillars" role="list">
+    <div role="listitem"><b>I</b><span>Atendimento personalizado</span></div>
+    <div role="listitem"><b>II</b><span>Mapeamento exclusivo</span></div>
+    <div role="listitem"><b>III</b><span>Produtos de alta qualidade</span></div>
+  </div>
+
+  <section id="tecnicas" aria-labelledby="h-tec">
+    <div class="sec-head">
+      <p class="eyebrow">Cílios</p>
+      <h2 id="h-tec">Técnicas e valores</h2>
+      <p>Toque em uma técnica para ver o efeito, a descrição e os valores de aplicação e manutenção.</p>
+      <p class="swipe-hint">Deslize para ver todas as técnicas →</p>
+    </div>
+    <div class="menu">
+      <ul class="list" role="tablist" aria-label="Técnicas de cílios" id="list"></ul>
+      <div class="panel" id="panel" role="tabpanel" aria-live="polite">
+        <div class="ph"><img id="p-img" src="img/volume-brasileiro.jpg" alt="" width="760" height="760" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <p class="eyebrow" id="p-fx">Efeito marcante</p>
+          <h3 id="p-nm">Volume Brasileiro</h3>
+          <p class="desc" id="p-desc">O Volume Brasileiro utiliza fios em formato Y para criar um efeito mais volumoso e uniforme, sem perder a leveza. Ideal para quem deseja um olhar marcante, com acabamento natural e duradouro.</p>
+          <div class="prices" id="p-prices"><div><span>Aplicação</span><b><small>R$</small>160</b></div><div><span>Manutenção</span><b><small>R$</small>110</b></div></div>
+          <p class="obs" id="p-obs" hidden></p>
+          <a class="btn btn-primary" id="p-cta" href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar Volume Brasileiro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobrancelhas" aria-labelledby="h-brow">
+    <div class="brows">
+      <div class="arch"><img src="img/sobrancelha.jpg" alt="Sobrancelha com design personalizado" width="760" height="950" loading="lazy" decoding="async"></div>
+      <div>
+        <div class="sec-head">
+          <p class="eyebrow">Sobrancelhas</p>
+          <h2 id="h-brow">Moldura para o olhar</h2>
+        </div>
+        <div class="brow-list">
+          <div><h3>Design personalizado</h3><b><small>R$</small>35</b></div>
+          <div><h3>Design com henna</h3><b><small>R$</small>45</b></div>
+          <div><h3>Brow lamination</h3><b><small>R$</small>150</b></div>
+        </div>
+        <div class="combo">
+          <p class="eyebrow">Combo</p>
+          <h3>Lash lifting + Brow lamination</h3>
+          <p>Realce natural para cílios e sobrancelhas em um único atendimento. Um olhar mais harmonioso e bem definido, sem precisar de manutenção frequente.</p>
+          <div class="row">
+            <b><small>R$</small>250</b>
+            <a class="btn wa" data-msg="Olá, Daya! Vim pelo site e quero agendar o combo Lash Lifting + Brow Lamination." href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar combo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" aria-labelledby="h-sobre">
+    <div class="about">
+      <div class="arch"><img src="img/sobre.jpg" alt="Daya Canedo, especialista em cílios e sobrancelhas" width="677" height="846" loading="lazy" decoding="async"></div>
+      <div class="about-copy">
+        <p class="eyebrow">Sobre</p>
+        <h2 id="h-sobre">Prazer, eu sou Dayana</h2>
+        <p>Especialista em cílios e sobrancelhas, apaixonada por realçar a beleza natural através de técnicas personalizadas que valorizam cada olhar.</p>
+        <p>Antes de cada aplicação eu faço o mapeamento do seu olhar para escolher o efeito certo. Você sai com cílios leves, confortáveis e com a sua cara, prontos para acordar sem rímel.</p>
+        <p class="sig">Daya Canedo</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-dep">
+    <div class="sec-head">
+      <p class="eyebrow">Quem já fez</p>
+      <h2 id="h-dep">O que as cilhudas dizem</h2>
+    </div>
+    <div class="quotes">
+      <blockquote class="q big"><p>É muuuuito leve, papo de até esquecer que tá usando.</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q"><p>Como sempre atenciosa e profissional! Amei muito e agora não vivo sem eles.</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q"><p>Infelizmente viciei no seu trabalho e já quero a manutenção.</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q"><p>Tô me achando mesmo sem maquiagem, obrigada por isso.</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q big"><p>Seu trabalho é excepcional!</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q"><p>Daya, sério, vou fazer toda vez meus cílios agora. Tô linda demais.</p><footer>Cliente · Instagram</footer></blockquote>
+      <blockquote class="q"><p>Estou me sentindo linda.</p><footer>Luciana · WhatsApp</footer></blockquote>
+      <blockquote class="q"><p>Apaixonada, minha linda… você é a melhor.</p><footer>Cliente · WhatsApp</footer></blockquote>
+    </div>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+  </section>
+
+  <section aria-labelledby="h-trab" style="padding-top:0">
+    <div class="sec-head">
+      <p class="eyebrow">Trabalhos</p>
+      <h2 id="h-trab">Resultados reais</h2>
+      <p>Toque em uma foto para ver os detalhes dos fios.</p>
+    </div>
+    <div class="gallery">
+      <button class="arch zoom" type="button" data-i="0" aria-label="Ampliar foto 1 de 6"><img src="img/trab1.jpg" alt="Lash lifting com cílios naturais curvados e alinhados" width="600" height="800" loading="lazy" decoding="async"></button>
+      <button class="arch zoom" type="button" data-i="1" aria-label="Ampliar foto 2 de 6"><img src="img/trab2.jpg" alt="Cliente com extensão de cílios de efeito natural" width="582" height="776" loading="lazy" decoding="async"></button>
+      <button class="arch zoom" type="button" data-i="2" aria-label="Ampliar foto 3 de 6"><img src="img/trab3.jpg" alt="Extensão de cílios volumosa com strass colorido" width="562" height="750" loading="lazy" decoding="async"></button>
+      <button class="arch zoom" type="button" data-i="3" aria-label="Ampliar foto 4 de 6"><img src="img/trab4.jpg" alt="Close de extensão de cílios volume com sobrancelha penteada" width="600" height="800" loading="lazy" decoding="async"></button>
+      <button class="arch zoom" type="button" data-i="4" aria-label="Ampliar foto 5 de 6"><img src="img/trab5.jpg" alt="Close de extensão de cílios com efeito texturizado" width="600" height="800" loading="lazy" decoding="async"></button>
+      <button class="arch zoom" type="button" data-i="5" aria-label="Ampliar foto 6 de 6"><img src="img/trab6.jpg" alt="Cílios e sobrancelhas com acabamento natural" width="482" height="642" loading="lazy" decoding="async"></button>
+    </div>
+  </section>
+
+  <section id="agendar" aria-labelledby="h-ag">
+    <div class="sec-head">
+      <p class="eyebrow">Agendamento</p>
+      <h2 id="h-ag">Como garantir seu horário</h2>
+    </div>
+    <ol class="steps">
+      <li><h3>Escolha a técnica</h3><p>Veja os efeitos acima. Se ficar em dúvida, é só perguntar: eu te ajudo a escolher.</p></li>
+      <li><h3>Chame no WhatsApp</h3><p>Me conte a técnica que você quer e combinamos o melhor dia e horário.</p></li>
+      <li><h3>Sinal de R$ 50</h3><p>Para extensão de cílios, o sinal confirma o horário e é abatido integralmente no dia.</p></li>
+      <li><h3>No dia</h3><p>Chegue no horário e venha sem maquiagem na região dos olhos para maior durabilidade.</p></li>
+    </ol>
+    <div class="pay">
+      <p class="eyebrow">Formas de pagamento</p>
+      <span>Pix</span><span>Cartão</span><span>Dinheiro</span>
+    </div>
+  </section>
+
+  <section id="cuidados" aria-labelledby="h-cui" style="padding-top:0">
+    <div class="care-wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Depois da aplicação</p>
+        <h2 id="h-cui">Cuidados para durar mais</h2>
+        <p>Seguindo esses cuidados, os fios ficam alinhados e bonitos até a próxima manutenção.</p>
+      </div>
+      <div class="care">
+        <div class="care-col">
+          <h3>Nas primeiras 24 horas</h3>
+          <ul>
+            <li>Não molhe os cílios.</li>
+            <li>Evite vapor, sauna, piscina e mar.</li>
+            <li>Não use maquiagem na região dos olhos.</li>
+          </ul>
+        </div>
+        <div class="care-col">
+          <h3>No dia a dia</h3>
+          <ul>
+            <li>Escove os fios todos os dias com a escovinha.</li>
+            <li>Lave com espuma ou shampoo neutro próprio para cílios e seque com cuidado.</li>
+            <li>Prefira dormir de barriga para cima ou de lado, sem pressionar o rosto no travesseiro.</li>
+            <li>Faça a manutenção a cada 15 a 21 dias.</li>
+          </ul>
+        </div>
+        <div class="care-col avoid">
+          <h3>Evite</h3>
+          <ul>
+            <li>Demaquilantes e produtos oleosos perto dos olhos.</li>
+            <li>Rímel e curvex.</li>
+            <li>Coçar, puxar ou arrancar os fios.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="care-note">No lash lifting e no brow lamination, siga o mesmo cuidado das primeiras 24 horas: nada de água, vapor ou maquiagem na região.</p>
+    </div>
+  </section>
+
+  <section id="duvidas" aria-labelledby="h-faq" style="padding-top:0">
+    <div class="faq-wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2 id="h-faq">Antes de agendar</h2>
+        <p>Não encontrou sua dúvida? Chame no WhatsApp que eu te respondo.</p>
+      </div>
+      <div class="faq">
+        <details name="faq" open>
+          <summary>A extensão pesa ou incomoda?</summary>
+          <div class="ans"><p>Não. Os fios são escolhidos de acordo com o seu cílio natural, então o resultado fica leve e confortável. Muitas clientes dizem que até esquecem que estão usando.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Estraga os cílios naturais?</summary>
+          <div class="ans"><p>Quando a aplicação é bem feita, não. Cada fio é colado em um cílio natural, respeitando o peso e o comprimento que ele aguenta. O que prejudica é puxar ou arrancar os fios, por isso a remoção deve ser feita por uma profissional.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Quanto tempo dura?</summary>
+          <div class="ans"><p>Os cílios naturais caem e se renovam o tempo todo, e os fios da extensão caem junto com eles. Por isso a manutenção é recomendada a cada 15 a 21 dias, para manter o olhar sempre cheio.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Qual técnica combina comigo?</summary>
+          <div class="ans"><p>Antes de começar, eu faço o mapeamento do seu olhar e conversamos sobre o efeito que você quer. Se preferir algo mais natural, lash lifting, fio a fio e volume summer são ótimos. Para um olhar marcante, volume brasileiro, egípcio ou mega brasileiro.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Preciso ir de algum jeito específico?</summary>
+          <div class="ans"><p>Venha sem maquiagem na região dos olhos e chegue no horário marcado. Se usa lente de contato, é bom tirar antes do procedimento.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Tenho alergia ou olhos sensíveis. Posso fazer?</summary>
+          <div class="ans"><p>Me avise antes de agendar. Assim avaliamos juntas o seu caso e a melhor forma de fazer o procedimento com segurança.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Como funciona o sinal?</summary>
+          <div class="ans"><p>Para extensão de cílios, o horário é confirmado com um sinal de R$ 50. Esse valor é abatido integralmente do procedimento no dia do atendimento.</p></div>
+        </details>
+        <details name="faq">
+          <summary>Todas as técnicas têm manutenção?</summary>
+          <div class="ans"><p>Quase todas. A exceção é o Mega Brasileiro, que não tem manutenção. O lash lifting também não precisa, porque trabalha só com os seus fios naturais.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="local" aria-labelledby="h-local" style="padding-top:0">
+    <div class="local">
+      <div class="hours-col">
+        <div class="sec-head" style="margin:0">
+          <p class="eyebrow">Onde fica</p>
+          <h2 id="h-local">Irajá, Rio de Janeiro</h2>
+          <p>Atendimento com hora marcada.</p>
+        </div>
+        <div class="hours">
+          <p class="now" hidden></p>
+          <dl>
+            <div data-days="1,2,3,4,5"><dt>Segunda a sexta</dt><dd>08h às 12h</dd></div>
+            <div data-days="6"><dt>Sábado</dt><dd>08h às 19h</dd></div>
+            <div data-days="0"><dt>Domingo</dt><dd>Fechado</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="addr">
+        <svg class="pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5a7 7 0 1 1 14 0C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <address>
+          <b>Av. Vicente de Carvalho, 340</b>
+          <span>Irajá · Rio de Janeiro, RJ</span>
+          <span>CEP 21371-148</span>
+        </address>
+        <div class="addr-ctas">
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Vicente%20de%20Carvalho%2C%20340%20-%20Iraj%C3%A1%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021371-148" target="_blank" rel="noopener">Ver no Google Maps</a>
+          <a class="btn btn-ghost" href="https://waze.com/ul?q=Av.%20Vicente%20de%20Carvalho%2C%20340%2C%20Iraj%C3%A1%2C%20Rio%20de%20Janeiro&amp;navigate=yes" target="_blank" rel="noopener">Ir com Waze</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final" aria-labelledby="h-final">
+    <span class="logo" aria-hidden="true"></span>
+    <h2 id="h-final">Será um prazer cuidar do seu olhar</h2>
+    <p>Em caso de cancelamento ou remarcação, consulte as políticas de atendimento pelo WhatsApp.</p>
+    <a class="btn btn-primary wa" data-msg="Olá, Daya! Vim pelo site e quero agendar um horário." href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+    <p class="phone">WhatsApp <code id="num">(21) 99251-1162</code> <button class="copy" id="copy" type="button">Copiar número</button></p>
+  </section>
+
+  <footer class="site">
+    <span>Lashes by Camaleoa · Daya Canedo · Av. Vicente de Carvalho, 340, Irajá, Rio de Janeiro</span>
+    <a href="https://www.instagram.com/lashesbycamaleoa/" target="_blank" rel="noopener">@lashesbycamaleoa</a>
+  </footer>
+</main>
+
+
+<dialog class="lb" id="lb" aria-label="Foto ampliada">
+  <figure class="lb-fig" id="lb-fig"><img id="lb-img" src="" alt="" draggable="false"></figure>
+  <button class="lb-close" id="lb-close" type="button" aria-label="Fechar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="lb-bar">
+    <button id="lb-prev" type="button" aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <span class="lb-count" id="lb-count" aria-live="polite"></span>
+    <button id="lb-next" type="button" aria-label="Próxima foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+</dialog>
+
+<div class="mbar" id="mbar"><a class="btn btn-primary wa" data-msg="Olá, Daya! Vim pelo site e quero agendar um horário." href="https://wa.me/5521992511162" target="_blank" rel="noopener">Agendar pelo WhatsApp</a></div>
+
+<script>
+const WA="https://wa.me/5521992511162?text=";
+const IMG={"lash-lifting": "img/lash-lifting.jpg", "fio-a-fio": "img/fio-a-fio.jpg", "volume-brasileiro": "img/volume-brasileiro.jpg", "volume-summer": "img/volume-summer.jpg", "volume-egipcio": "img/volume-egipcio.jpg", "fox-eye": "img/fox-eye.jpg", "wispy-glam": "img/wispy-glam.jpg", "mega-brasileiro": "img/mega-brasileiro.jpg"};
+const T=[
+ {id:"lash-lifting",nm:"Lash Lifting",fx:"Natural",desc:"Valoriza seus cílios naturais, deixando-os curvados, alinhados e com aparência mais longa. Um efeito elegante e natural para destacar o olhar todos os dias.",ap:130},
+ {id:"fio-a-fio",nm:"Fio a Fio Power",fx:"Natural",desc:"Ideal para mulheres que buscam praticidade e querem acordar prontas, sem precisar de rímel. Olhar realçado sem perder leveza e naturalidade.",ap:150,mn:105},
+ {id:"volume-brasileiro",nm:"Volume Brasileiro",fx:"Marcante",desc:"Utiliza fios em formato Y para criar um efeito mais volumoso e uniforme, sem perder a leveza. Ideal para quem deseja um olhar marcante, com acabamento natural e duradouro.",ap:160,mn:110},
+ {id:"volume-summer",nm:"Volume Summer",fx:"Natural · fios marrons",desc:"Também usa fios Y, porém na cor marrom. Ideal para loiras, ruivas e para quem deseja algo mais natural.",ap:160,mn:110},
+ {id:"volume-egipcio",nm:"Volume Egípcio",fx:"Intenso",desc:"Combina densidade na raiz com leveza nas pontas, criando um efeito profundo e sofisticado. Ideal para quem deseja um olhar intenso, elegante e cheio de presença.",ap:170,mn:115},
+ {id:"fox-eye",nm:"Fox Eye",fx:"Delineado",desc:"Cria um efeito delineado natural, elevando o canto externo e trazendo mais expressão ao olhar. Perfeito para quem busca sofisticação com um toque de sensualidade.",ap:180,mn:120},
+ {id:"wispy-glam",nm:"Wispy Glam",fx:"Texturizado",desc:"Cria um efeito leve e texturizado, com fios estrategicamente posicionados para dar mais dimensão e sofisticação. Indicado para quem ama um efeito mais estilizado.",ap:190,mn:125},
+ {id:"mega-brasileiro",nm:"Mega Brasileiro",fx:"Volume máximo",desc:"A técnica perfeita para quem ama volume! Cílios mais cheios, definidos e com excelente durabilidade. O capping garante maior retenção e um olhar marcante por muito mais tempo.",ap:230,obs:"Não realizamos manutenção dessa técnica."}
+];
+const $=id=>document.getElementById(id);
+const list=$("list"),panel=$("panel");
+const price=(l,v)=>`<div><span>${l}</span><b><small>R$</small>${v}</b></div>`;
+function wa(msg){return WA+encodeURIComponent(msg)}
+list.innerHTML=T.map((t,i)=>`<li role="presentation"><button role="tab" id="tab-${t.id}" aria-controls="panel" aria-selected="false" data-i="${i}"><span class="nm">${t.nm}</span><span class="fx">${t.fx}</span><span class="pr">R$ ${t.ap}</span></button></li>`).join("");
+const btns=[...list.querySelectorAll("button")];
+let cur=-1,timer;
+function fill(t){
+  $("p-img").src=IMG[t.id];$("p-img").alt="Resultado da técnica "+t.nm;
+  $("p-fx").textContent="Efeito "+t.fx.toLowerCase();$("p-nm").textContent=t.nm;$("p-desc").textContent=t.desc;
+  $("p-prices").innerHTML=price("Aplicação",t.ap)+(t.mn?price("Manutenção",t.mn):"");
+  $("p-obs").hidden=!t.obs;$("p-obs").textContent=t.obs||"";
+  $("p-cta").textContent="Agendar "+t.nm;$("p-cta").href=wa(`Olá, Daya! Vim pelo site e quero agendar ${t.nm}.`);
+  panel.setAttribute("aria-labelledby","tab-"+t.id);
+}
+function select(i,animate){
+  if(i===cur)return;cur=i;
+  btns.forEach((b,j)=>{b.setAttribute("aria-selected",j===i);b.tabIndex=j===i?0:-1});
+  const t=T[i];
+  if(!animate||matchMedia("(prefers-reduced-motion: reduce)").matches){fill(t);return}
+  clearTimeout(timer);panel.classList.add("swap");
+  timer=setTimeout(()=>{fill(t);requestAnimationFrame(()=>panel.classList.remove("swap"))},170);
+}
+const RM=()=>matchMedia("(prefers-reduced-motion: reduce)").matches;
+function centerChip(i){if(!matchMedia("(max-width:859px)").matches)return;const b=btns[i];
+  list.scrollTo({left:b.parentElement.offsetLeft-(list.clientWidth-b.offsetWidth)/2,behavior:RM()?"auto":"smooth"})}
+list.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;select(+b.dataset.i,true);centerChip(+b.dataset.i)});
+list.addEventListener("keydown",e=>{const k={ArrowDown:1,ArrowRight:1,ArrowUp:-1,ArrowLeft:-1}[e.key];if(!k)return;e.preventDefault();
+  const n=(cur+k+T.length)%T.length;select(n,true);btns[n].focus();centerChip(n)});
+/* pré-carrega as fotos das técnicas só quando a seção se aproxima */
+(function(){const go=()=>Object.values(IMG).forEach(src=>{const im=new Image();im.decoding="async";im.src=src});
+  if(!("IntersectionObserver" in window))return go();
+  const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();go()}},{rootMargin:"600px 0px"});
+  io.observe(document.getElementById("tecnicas"))})();
+select(2,false);centerChip(2);
+
+(function(){try{
+  const H={0:null,1:[8,12],2:[8,12],3:[8,12],4:[8,12],5:[8,12],6:[8,19]};
+  const p=Object.fromEntries(new Intl.DateTimeFormat("en-US",{timeZone:"America/Sao_Paulo",weekday:"short",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+  const d=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(p.weekday),h=(+p.hour%24)+(+p.minute)/60;
+  const nm=["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+  document.querySelectorAll(".hours dl div").forEach(r=>{if(r.dataset.days.split(",").includes(String(d)))r.classList.add("today")});
+  const t=H[d];let txt,open=false;
+  if(t&&h>=t[0]&&h<t[1]){open=true;txt="Aberto agora · até "+String(t[1]).padStart(2,"0")+"h"}
+  else{let k=0,nd=d;do{k++;nd=(d+k)%7}while(!H[nd]||(k===0));
+    if(t&&h<t[0]){txt="Fechado agora · abre hoje às "+String(t[0]).padStart(2,"0")+"h"}
+    else txt="Fechado agora · abre "+(k===1?"amanhã":nm[nd])+" às "+String(H[nd][0]).padStart(2,"0")+"h"}
+  document.querySelectorAll(".now").forEach(el=>{el.textContent=txt;el.classList.toggle("open",open);el.hidden=false});
+}catch(e){}})();
+
+/* menu no celular */
+(function(){const b=$("menu-btn"),m=$("mnav");
+  const set=o=>{m.classList.toggle("open",o);b.setAttribute("aria-expanded",o);b.setAttribute("aria-label",o?"Fechar menu":"Abrir menu")};
+  b.addEventListener("click",()=>set(!m.classList.contains("open")));
+  m.addEventListener("click",e=>{if(e.target.closest("a"))set(false)});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&m.classList.contains("open")){set(false);b.focus()}});
+  document.addEventListener("click",e=>{if(m.classList.contains("open")&&!e.target.closest(".top"))set(false)});
+  addEventListener("resize",()=>{if(innerWidth>=860)set(false)});
+})();
+
+/* depoimentos: indicador de posição */
+(function(){const q=document.querySelector(".quotes"),d=$("dots"),cards=[...q.children];
+  d.innerHTML=cards.map(()=>"<span></span>").join("");const ds=[...d.children];let raf=0;
+  const upd=()=>{raf=0;const w=cards[0].offsetWidth+12;const i=Math.min(cards.length-1,Math.round(q.scrollLeft/w));ds.forEach((x,j)=>x.classList.toggle("on",j===i))};
+  q.addEventListener("scroll",()=>{if(!raf)raf=requestAnimationFrame(upd)},{passive:true});upd();
+})();
+
+/* visualizador de fotos */
+(function(){const lb=$("lb"),img=$("lb-img"),fig=$("lb-fig"),cnt=$("lb-count");
+  const items=[...document.querySelectorAll(".gallery .zoom")];let i=0,opener=null;
+  const show=(k,dir)=>{i=(k+items.length)%items.length;const src=items[i].querySelector("img");img.src=src.currentSrc||src.src;img.alt=src.alt;cnt.textContent=(i+1)+" / "+items.length;
+    if(dir&&!RM()&&img.animate)img.animate([{opacity:.25,transform:`translateX(${dir*28}px)`,filter:"blur(4px)"},{opacity:1,transform:"none",filter:"blur(0)"}],{duration:280,easing:"cubic-bezier(.23,1,.32,1)"})};
+  const open=k=>{opener=items[k];show(k,0);document.documentElement.classList.add("lb-lock");lb.classList.remove("closing");
+    if(lb.showModal)lb.showModal();else lb.setAttribute("open","")};
+  let closing=false;
+  const close=()=>{if(closing||!lb.open)return;closing=true;const done=()=>{lb.classList.remove("closing");lb.close();closing=false};
+    if(RM())done();else{lb.classList.add("closing");setTimeout(done,150)}};
+  lb.addEventListener("close",()=>{document.documentElement.classList.remove("lb-lock");opener&&opener.focus({preventScroll:true})});
+  lb.addEventListener("cancel",e=>{e.preventDefault();close()});
+  items.forEach((b,k)=>b.addEventListener("click",()=>open(k)));
+  $("lb-close").addEventListener("click",close);
+  $("lb-prev").addEventListener("click",()=>show(i-1,-1));
+  $("lb-next").addEventListener("click",()=>show(i+1,1));
+  lb.addEventListener("keydown",e=>{if(e.key==="ArrowRight")show(i+1,1);if(e.key==="ArrowLeft")show(i-1,-1)});
+  fig.addEventListener("click",e=>{if(e.target===fig)close()});
+  /* arrastar para os lados troca a foto */
+  let sx=0,sy=0,t0=0,drag=false,id=null;
+  fig.addEventListener("pointerdown",e=>{if(id!==null||e.target!==img)return;id=e.pointerId;sx=e.clientX;sy=e.clientY;t0=performance.now();drag=false;img.setPointerCapture(id)});
+  fig.addEventListener("pointermove",e=>{if(e.pointerId!==id)return;const dx=e.clientX-sx,dy=e.clientY-sy;
+    if(!drag&&Math.abs(dx)>8&&Math.abs(dx)>Math.abs(dy))drag=true;if(drag)img.style.transform=`translateX(${dx}px)`});
+  const end=e=>{if(e.pointerId!==id)return;id=null;const dx=e.clientX-sx,v=Math.abs(dx)/(performance.now()-t0);
+    img.style.transform="";if(drag&&(Math.abs(dx)>60||v>.11)){dx<0?show(i+1,1):show(i-1,-1)}drag=false};
+  fig.addEventListener("pointerup",end);fig.addEventListener("pointercancel",end);
+})();
+
+/* barra fixa do celular: some quando outro botão de agendar está visível */
+(function(){const bar=$("mbar");if(!("IntersectionObserver" in window))return;
+  const vis=new Set();const io=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?vis.add(e.target):vis.delete(e.target));bar.classList.toggle("away",vis.size>0)},{threshold:.5});
+  document.querySelectorAll(".hero .ctas,#p-cta,.combo .btn,.final .btn").forEach(el=>io.observe(el));
+})();
+document.querySelectorAll("a.wa").forEach(a=>a.href=wa(a.dataset.msg));
+$("copy").addEventListener("click",async e=>{const b=e.currentTarget;
+  try{await navigator.clipboard.writeText("+5521992511162");b.textContent="Número copiado"}
+  catch{const r=document.createRange();r.selectNodeContents($("num"));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selecionado, é só copiar"}
+  setTimeout(()=>b.textContent="Copiar número",2200)});
+</script>
+
+</body></html>
